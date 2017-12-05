@@ -1,16 +1,3 @@
 #!/bin/sh
 
-# Uncomment the line below if you write a Java program
-#java cluster $1 $2 $3
-
-# Uncomment the line below for a Python program
-python3 Cluster.py data_file link_type k
-
-# Uncomment the line below to run a compiled C or C++ program
-#./cluster $1 $2 $3
-
-# Uncomment the line below for a Perl program
-#perl cluster.pl $1 $2 $3
-
-# Uncomment the line below for an R program
-#Rscript cluster.R $1 $2 $3
+python3 Cluster.py tiny-yeast.tsv A 4
