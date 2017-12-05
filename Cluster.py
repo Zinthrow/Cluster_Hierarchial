@@ -12,7 +12,7 @@ import sys
 user_input = sys.argv 
 data_file = user_input[1] #specify which tsv file you want to draw from
 link_type = user_input[2] #link type, options are "S" "C" and "A"
-k = int(user_input[3]) # how many clusters do you want it to consolidate to
+k = int(user_input[3]) # how many clusters do you want the program to consolidate to
 
 #data_file = "tiny-yeast.tsv" # test tsv file
 #link_type = "C" # test link_type 
